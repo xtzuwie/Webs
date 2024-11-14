@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: none;
+    transition: all 0.3s ease;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .product_logo img {
+    width: 60px; /* Adjusted size for a better fit */
+    height: auto;
+    transition: width 0.3s ease;
+  }
+  
+  .header-controls {
+    justify-content: right;
+    display: flex;
+    margin-left: 60px;
+  }
+  
+  .header a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .header a:hover {
+    color: #007bff;
+  }
+  
+  /* Scroll Effect */
+  .header.scrolled {
+    background-color: linear-gradient(navy);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header.scrolled .product_logo img {
+    width: 50px; /* Smaller logo on scroll */
+  }
+  
+  .header.scrolled a {
+    color: #000;
+  }
+  
+  .consult-btn {
+    background-color: #ff69b4;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: skyblue;
+    padding: 60px 20px;
+    color: #fff;
+    margin-top: 30px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+    }
+
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .learn-more-btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  
+  .why-choose-ihealth {
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .why-choose-kindred h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .why-choose-kindred .description {
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .benefit {
+    flex: 1 1 200px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: none;
+  }
+  
+  .benefit-icon i {
+    font-size: 40px; /* Adjust icon size as needed */
+    color: #4CAF50; /* Choose an icon color */
+    margin-bottom: 10px;
+  }
+  
+  .benefit h3 {
+    font-size: 1.3em;
+    margin: 10px 0;
+  }
+  
+  .benefit p {
+    color: #666;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+
+  .footer {
+    background: url('img/wave.svg') repeat-x;
+    padding: 80px 20px;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    place-items: center;
+  }
+
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-bottom: 20px;
+    border: 10px solid;
+    border-color: wheat;
+    clip-path: inset(0 round 10px);
+    border-radius: 50%;
+  }
+  
+  .social-icons a {
+    color: navy;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .links h4, .newsletter h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  
+  .links a {
+    display: block;
+    color: navy;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+  }
+  
+  .newsletter p {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background-color: navy;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.8em;
+  }
+  

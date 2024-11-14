@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Montalban Healthcare</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header" id="navbar" data-aos="fade-down">
+    <nav class="nav">
+      <div class="product_logo">
+        <img src="img/logo.png" alt="Logo">
+      </div>
+      <a href="index.html">home</a>
+      <a href="about.html">about us</a>
+      <a href="services.html">Services</a>
+    </nav>
+    <div class="header-controls">
+      <button class="consult-btn">
+        <a href="authentication/login.html">Book a consulation</a>
+      </button>
+      <div class="icon">
+        <a href="authentication/login.html">👤</a>
+      </div>
+    </div>
+  </header>
+  
+  <main class="hero" data-aos="fade-up">
+    <h1>Healthcare in Montalban</h1>
+    <p>Health for all.</p>
+    <p>You-first, professional-centered comprehensive care to empower <em>you</em> to take charge of your health.</p>
+    <button class="learn-more-btn">learn more ➡️</button>
+    <img src="img/bg1.jpg" alt="Women" class="hero-image" data-aos="zoom-in">
+  </main>
+
+  <section class="why-choose-ihealth" data-aos="fade-up">
+    <h2>Why Choose iHealth</h2>
+    <p class="description">
+      When it comes to your health, you deserve the best. At iHealth, we are dedicated to delivering exceptional care and empowering individuals to make informed decisions about their well-being. Whether you need routine check-ups, preventive screenings, or specialized treatments, our clinic is here to support your health journey every step of the way.
+    </p>
+    <div class="benefits">
+      <div class="benefit" data-aos="fade-up" data-aos-delay="100">
+        <div class="benefit-icon">
+          <i class="fa-solid fa-hospital"></i>
+        </div>
+        <h3>Your Healthcare Companion</h3>
+        <p>All-in-one destination for health and wellness services</p>
+      </div>
+      <div class="benefit" data-aos="fade-up" data-aos-delay="200">
+        <div class="benefit-icon">
+          <i class="fa-solid fa-leaf"></i>
+        </div>
+        <h3>Holistic Health</h3>
+        <p>Offering patients holistic, yet personalized plans of care</p>
+      </div>
+      <div class="benefit" data-aos="fade-up" data-aos-delay="300">
+        <div class="benefit-icon">
+          <i class="fa-solid fa-user-md"></i>
+        </div>
+        <h3>Progressive Doctors</h3>
+        <p>iHealth doctors are heavily vetted and trained to provide excellent patient care</p>
+      </div>
+      <div class="benefit" data-aos="fade-up" data-aos-delay="400">
+        <div class="benefit-icon">
+          <i class="fa-solid fa-money-bill-wave"></i>
+        </div>
+        <h3>Transparent Pricing</h3>
+        <p>Encouraging well-informed healthcare decisions through upfront pricing</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="services" data-aos="fade-up">
+    <h2>Services</h2>
+  </section>
+
+  <footer class="footer" data-aos="fade-up">
+    <div class="footer-content">
+      <div class="footer-section brand">
+        <img src="img/logo.png" alt="iHealth Logo" class="logo">
+        <p>For general inquiries: ihealth@gmail.com</p>
+        <p>For patient inquiries & appointment schedules: care@ihealth.co</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-tiktok"></i></a>
+        </div>
+      </div>
+  
+      <div class="footer-section links">
+        <h4>Help</h4>
+        <a href="#">FAQs</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Conditions</a>
+      </div>
+  
+      <div class="footer-section links">
+        <h4>Company</h4>
+        <a href="#">About Us</a>
+        <a href="#">Services</a>
+        <a href="#">Kindred Doctors and Specialists</a>
+        <a href="#">Blog</a>
+        <a href="#">Android App</a>
+        <a href="#">iOS App</a>
+      </div>
+  
+      <div class="footer-section newsletter">
+        <h4>Newsletter</h4>
+        <p>Be the first to get the latest news about trends, promotions, and much more!</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address">
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>© 2024 Montalban Healthcare. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- Load AOS and Initialize -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,  // animation duration
+      offset: 200,     // offset from the top to trigger animations
+      once: true       // animation only happens once
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

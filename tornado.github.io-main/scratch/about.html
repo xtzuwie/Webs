@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="icon" href="img/ICON.jpg" type="image/x-icon" />
+    <title>About Us</title>
+    <style>
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .hover-zoom:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+     <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="img/MONTALBAN.png" style="height: 100px;" alt="Dialmed Montalban" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Healthcare Montalban</span>
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Appointment</button>
+                <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                      <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                  </svg>
+              </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900">
+                  <li>
+                    <a href="index.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded no-underline hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                  </li>
+                  <li>
+                    <a href="about.html" class="block py-2 px-3 md:p-0 text-gray-400 bg-blue-700 rounded no-underline md:bg-transparent md:text-blue-700 md:dark:text-blue-500" aria-current="page">About</a>
+                  </li>
+                  <li>
+                    <a href="services.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded no-underline hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                  </li>
+                  <li>
+                    <a href="contact.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded no-underline hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                  </li>
+                </ul>
+              </div>              
+    </nav> 
+
+    <div class="container mt-5 fade-in">
+        <div class="row align-items-center">
+            <div class="col-md-6 hover-zoom">
+                <img src="img/Hospital.jpg" alt="Hospital Image" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <h2 class="text-blue-700 dark:text-blue-500">Healthcare Montalban</h2>
+                <p>Montalban Health Care, we take pride in our long-standing commitment to providing high-quality, compassionate care for patients across the Montalban. For many years, we have been at the forefront of healthcare in Montalban, blending advanced medical technology with a patient-centered approach to create a safe, welcoming environment for all.</p>
+                <p>Located in the heart of Montalban, we serve as a hub for accessible, comprehensive healthcare, focusing not only on treatment but also on education and support for you and your loved ones.</p>
+                <p>Let us be your partner in health and wellness. Welcome to Montalban Health Care – where your health is our priority.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-blue-700 text-white mt-5 py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Dialmed Montalban. All rights reserved.</p>
+            <p>Follow us on:
+                <a href="#" class="text-white ms-2 me-2">Facebook</a> |
+                <a href="#" class="text-white ms-2 me-2">Twitter</a> |
+                <a href="#" class="text-white ms-2">Instagram</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C89scichPD02hX1v7a1cprGJx8xfrwA7+n7fQ463Cradox8Ng1FRAWJ0w0QJ8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+</body>
+</html>
